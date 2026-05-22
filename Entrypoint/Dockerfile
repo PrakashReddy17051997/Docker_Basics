@@ -1,2 +1,2 @@
 FROM almalinux:8
-CMD [ "ping", "bing.com"]
+ENTRYPOINT [ "ping", "bing.com"]
