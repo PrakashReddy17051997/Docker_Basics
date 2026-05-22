@@ -1,5 +1,5 @@
 FROM ubuntu
 
-RUN aptinstall nginx -y
+RUN apt install nginx -y
 EXPOSE 80/tcp
 CMD [ "nginx", "-g", "daemon off;" ]
