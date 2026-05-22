@@ -5,4 +5,4 @@ RUN adduser $username
 USER $username
 CMD [ "sleep", "100" ]
 
-# docker build  -t arg:v1 -build-arg username=prakash . 
+# docker build  -t arg:v1 --build-arg username=prakash . 
